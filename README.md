@@ -30,7 +30,7 @@ I. DFA.java
 
 Implements the core functionality of the DFA by maintaining states, transitions, symbols, and languages recognized by the DFA. It supports the addition of new strings and symbols, generating random strings, displaying the DFA components, and processing the strings to determine if they are accepted or rejected by the DFA.
 
-     DFA(ArrayList<String> l): Constructor that initializes the DFA with a given list of valid strings and sets up the states,   transitions, and symbols required for processing the language.
+    DFA(ArrayList<String> l): Constructor that initializes the DFA with a given list of valid strings and sets up the states,   transitions, and symbols required for processing the language.
 
     addNewSymbol(char symbol): Adds a new symbol to the list of valid symbols if it is not a duplicate. It also creates a self-loop transition on the reject state for this symbol.
 
